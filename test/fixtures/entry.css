@@ -1,0 +1,7 @@
+@deps "reset";
+@deps "@style/base";
+@import "@style/deps";
+a {
+  color: green;
+}
+

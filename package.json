@@ -1,0 +1,40 @@
+{
+  "name": "postcss-deps",
+  "version": "0.0.1",
+  "description": "Detect the css dependency graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/postcss-deps.git"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "deps",
+    "css",
+    "dependency",
+    "graph"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/postcss-deps/issues"
+  },
+  "homepage": "https://github.com/zoubin/postcss-deps#readme",
+  "devDependencies": {
+    "eslint": "^1.5.1",
+    "postcss-import": "^7.0.0",
+    "tap": "^1.4.1"
+  },
+  "dependencies": {
+    "custom-resolve": "^0.2.1",
+    "getp": "^1.1.0",
+    "nub": "^1.0.0",
+    "postcss": "^5.0.8",
+    "slide": "^1.1.6",
+    "util-mix": "^3.0.1"
+  }
+}
