@@ -1,5 +1,7 @@
-# postcss-detect
+# postcss-deps
 Detect the css dependency graph.
+
+Use `@deps "module"` to indicate the dependency relationship.
 
 ## Example
 
